@@ -54,7 +54,7 @@ jobs:
       run: |
         poetry run pytest
         
-    - name: Coverage badge
-      uses: simonperneel/burner@v1
+    - name: Upload code to CodeCov
+      uses: codecov/codecov-action@v3
       with: 
         verbose: true # optional (default = false)
