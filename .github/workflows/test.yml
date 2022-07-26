@@ -55,6 +55,6 @@ jobs:
         poetry run pytest
         
     - name: Coverage badge
-    - uses: simonperneel/burner@v3
+      uses: simonperneel/burner@v3
       with: 
         verbose: true # optional (default = false)
